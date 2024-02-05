@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Merriweather&family=Montserrat:wght@100;200;400&family=Nunito&family=Playfair+Display:wght@500&family=Tilt+Prism&family=Ysabeau+Infant&display=swap");
+
+/* font-family: 'Caprasimo', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Tilt Prism', sans-serif; */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root{
+    --font: "Ysabeau Infant", sans-serif;
+    --paraFont:'Nunito', sans-serif;
+    --gray:rgb(69, 69, 69);
+    --black: rgb(32, 32, 32);
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainContainer {
+  border: 1px solid black;
+  margin: auto;
+  padding: 0vw 2vw;
+}
+
+.topbarul {
+  padding: 0.5vw 0vw;
+  text-align: right;
+  font-family: var(--font);
+
+}
+
+.topbarul li {
+  display: inline;
+  padding: 2vw;
+  font-size: 1.5vw;
+}
+
+.topbarul a{
+    color: var(--black);
+}
+
+.navbar{
+    z-index: 10;
+    color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.6vw auto;
+    padding: 0.3vw;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+.logo{
+    text-align: center;
+    font-size: 20px;
+    margin: auto 0.5vw;
+    border-radius: 5px;
+    padding: 0vw 10px;
+    font-family: var(--font);
+}
+
+.logo-image{
+    width: 6vw;
+}
+
+.navul li{
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 0.2vw 0.5vw;
+    font-size: 1.7vw;
+    font-family: var(--font);
+    transition: all 0.2s linear;
+}
+
+.navul a{
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
+
+.navul li:hover{
+    border-bottom: 1px solid var(--gray);
+}
+
+.divOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.imgDiv{
+    /* width: 50%; */
+}
+
+.imageOne{
+    display: block;
+    width: 100%;
+    border: 1px solid green;
+}
+
+.contentOne{
+    padding: 2vw;
+}
+   
+.contentOne h2{
+    font-size: 2vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    margin: 2vw auto;
+    letter-spacing: 1px;
+}
+
+.contentOne p{
+    font-weight: bold;
+    font-size: 1vw;
+    font-family: var(--paraFont);
+}
+
+.pathsDiv1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1vw auto;
+}
+
+.common{
+    padding: 1vw 0vw;
+    text-align: center;
+    font-family: var(--paraFont);
+    letter-spacing: 1px;
+    color: var(--gray);
+    font-weight: bolder;
+    transition: all 0.2s linear;
+    min-width: 12vw; 
+}
+
+.common:hover{
+    background-color: transparent;
+    color: var(--black);
+}
+
+.div1{
+    color: white;
+    border: 2px solid rgb(255, 191, 0);
+    background-color: rgb(255, 191, 0);
+}
+
+.div2{
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+}
+
+.div3{
+    color: white;
+    background-color: rgb(10, 176, 176);
+    border: 2px solid rgb(10, 176, 176);
+}
+
+.div4{
+    color: white;
+    background-color: rgb(174, 0, 255);
+    border: 2px solid rgb(174, 0, 255);
+}
+
+.free{
+    text-align: center;
+    margin: 2vw auto;
+}
+
+.divTwo{
+    border: 1px solid gray;
+    margin: 3vw auto;
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+.divTwoLeft{
+    width: 30%;
+}
+
+.divTwoRight{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-title{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    padding: 5px 0px;
+    color: white;
+    box-shadow: 4px 4px 6px rgba(4, 4, 4, 0.245);
+    backdrop-filter: blur(10px);
+    width: 100px;
+    font-size: large;
+}
+
+.flip-card {
+    margin: 10px auto;
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    position: relative;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #a6a6a6;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: 100;
+  }
+
+  .flipCardImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
