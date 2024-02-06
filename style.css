@@ -226,8 +226,8 @@ a {
   color: white;
   box-shadow: 4px 4px 6px rgba(4, 4, 4, 0.245);
   backdrop-filter: blur(10px);
-  width: 120px;
-  font-size: large;
+  width: 12vw;
+  font-size: 1.5vw;
 }
 
 .flip-card {
@@ -539,6 +539,7 @@ a {
   font-family: var(--headFont);
   letter-spacing: 2px;
   margin: 1vw auto;
+  font-size: 3vw;
 }
 
 .read-more-btn{
@@ -549,6 +550,7 @@ a {
   padding: 0.5vw; 
   width: 10vw;
   margin: 0.5vw;
+  font-size: 1.2vw;
 }
 
 .seven-why{
@@ -563,6 +565,7 @@ a {
 .seven-divs{
   border-left: 1px solid gray;
   width: 15vw;
+  font-size: 1.5vw;
 }
 
 .seven-divs i{
@@ -575,22 +578,93 @@ a {
   width: 50%;
 }
 
-.open-heading{
-  font-family: var(--font);
-  margin: 2vw auto 0.8vw;
-  font-size: 3vw;
+/* -------------------SLIDER----------------------------- */
+
+.scrollbar{
+  display: flex;
+  overflow-x: scroll;
 }
 
-.open-para{
-  font-family: var(--paraFont);
-  font-size: 1.3vw;
+/* width */
+.scrollbar::-webkit-scrollbar {
+  height: 5px;
 }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ff0000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.scrollbar img {
+  display: block;
+  width: 20vw;
+}
+
+.slider {
+  width: 100%;
+  /* height: 300px; */
+  overflow: hidden;
+  position: relative;
+
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  z-index: 2;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.slide img{
+  width: 100px;
+}
+
 
 /* ----------------------------Footer Main-------------------- */
 
 .footer-main{
-  background-color: rgb(249, 249, 249);
+  background-color: rgba(225, 225, 225, 0.403);
   margin: 3vw auto 1vw;
+  padding: 1vw;
 }
 
 .footer-one{
@@ -600,12 +674,12 @@ a {
 }
 
 .addresses{
-  /* border-right: 1px solid var(--gray); */
-  /* border-left: 1px solid var(--gray); */
-  box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.232);
+  box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.215);
   text-align: center;
   padding: 1vw;
   width: 15vw;
+  background-color: white;
+  font-family: var(--paraFont);
 }
 
 .addresses h3{
@@ -613,6 +687,7 @@ a {
   font-family: var(--headFont);
   letter-spacing: 1px;
   font-size: 2vw;
+  color: rgb(28, 28, 28);
 }
 
 .addresses img{
@@ -623,4 +698,30 @@ a {
 .social-media img{
   width: 2vw;
   margin: 1vw;
+}
+
+.footer-two{
+  display: flex;
+  align-items: center;
+  margin: 1vw auto;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  border-top: 1px solid rgb(191, 191, 191);
+}
+
+.footer-logo{
+  width: 10vw;
+  margin: 2vw ;
+}
+
+.footer-right{
+  border-left: 1px solid gray;
+  padding: 2vw;
+}
+
+.footer-right p{
+  font-size: 1.2vw;
+  color: var(--black);
+  font-family: var(--paraFont);
+  letter-spacing: 1px;
+  margin: 0.5vw auto;
 }
