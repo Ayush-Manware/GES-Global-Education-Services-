@@ -26,7 +26,6 @@ a {
 }
 
 .mainContainer {
-  border: 1px solid black;
   margin: auto;
   padding: 0vw 2vw;
 }
@@ -52,6 +51,7 @@ a {
 }
 
 .navbar {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.205);
   z-index: 10;
   color: var(--gray);
   display: flex;
@@ -62,7 +62,6 @@ a {
   position: sticky;
   top: 0px;
   background-color: white;
-  border-bottom: 1px solid gray;
 }
 
 .logo {
@@ -520,4 +519,108 @@ a {
 .six-image {
   width: 50%;
   display: block;
+}
+
+
+/* ---------seventh Div------------------- */
+
+.div-seven{
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.seven-content{
+  width: 50%; 
+  padding: 2vw;
+}
+
+.seven-content h1{
+  font-family: var(--headFont);
+  letter-spacing: 2px;
+  margin: 1vw auto;
+}
+
+.read-more-btn{
+  font-family: var(--paraFont);
+  background-color: rgba(255, 0, 0, 0.773);
+  border: 1px solid transparent;
+  color: white;
+  padding: 0.5vw; 
+  width: 10vw;
+  margin: 0.5vw;
+}
+
+.seven-why{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: var(--font);
+  margin: 2vw auto;
+}
+
+.seven-divs{
+  border-left: 1px solid gray;
+  width: 15vw;
+}
+
+.seven-divs i{
+  color: var(--gray);
+  font-size: 3vw;
+  margin: 1vw auto;
+}
+
+.seven-image{
+  width: 50%;
+}
+
+.open-heading{
+  font-family: var(--font);
+  margin: 2vw auto 0.8vw;
+  font-size: 3vw;
+}
+
+.open-para{
+  font-family: var(--paraFont);
+  font-size: 1.3vw;
+}
+
+/* ----------------------------Footer Main-------------------- */
+
+.footer-main{
+  background-color: rgb(249, 249, 249);
+  margin: 3vw auto 1vw;
+}
+
+.footer-one{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.addresses{
+  /* border-right: 1px solid var(--gray); */
+  /* border-left: 1px solid var(--gray); */
+  box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.232);
+  text-align: center;
+  padding: 1vw;
+  width: 15vw;
+}
+
+.addresses h3{
+  margin: 1vw;
+  font-family: var(--headFont);
+  letter-spacing: 1px;
+  font-size: 2vw;
+}
+
+.addresses img{
+  width: 1.5vw;
+  object-fit: cover;
+}
+
+.social-media img{
+  width: 2vw;
+  margin: 1vw;
 }
