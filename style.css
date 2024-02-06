@@ -13,12 +13,12 @@ font-family: 'Tilt Prism', sans-serif; */
   box-sizing: border-box;
 }
 
-:root{
-    --font: "Ysabeau Infant", sans-serif;
-    --paraFont:'Nunito', sans-serif;
-    --headFont:'Playfair Display', serif;
-    --gray:rgb(69, 69, 69);
-    --black: rgb(32, 32, 32);
+:root {
+  --font: "Ysabeau Infant", sans-serif;
+  --paraFont: "Nunito", sans-serif;
+  --headFont: "Playfair Display", serif;
+  --gray: rgb(69, 69, 69);
+  --black: rgb(32, 32, 32);
 }
 
 a {
@@ -31,8 +31,8 @@ a {
   padding: 0vw 2vw;
 }
 
-.topbar{
-    margin: 1vw auto;
+.topbar {
+  margin: 1vw auto;
 }
 
 .topbarul {
@@ -47,264 +47,477 @@ a {
   font-size: 1.5vw;
 }
 
-.topbarul a{
-    color: var(--black);
+.topbarul a {
+  color: var(--black);
 }
 
-.navbar{
-    z-index: 10;
-    color: var(--gray);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0.6vw auto;
-    padding: 0.3vw;
-    position: sticky;
-    top: 0px;
-    background-color: white;
-    border-bottom: 1px solid gray;
+.navbar {
+  z-index: 10;
+  color: var(--gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.6vw auto;
+  padding: 0.3vw;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  border-bottom: 1px solid gray;
 }
 
-.logo{
-    text-align: center;
-    font-size: 20px;
-    margin: auto 0.5vw;
-    border-radius: 5px;
-    padding: 0vw 10px;
-    font-family: var(--font);
+.logo {
+  text-align: center;
+  font-size: 20px;
+  margin: auto 0.5vw;
+  border-radius: 5px;
+  padding: 0vw 10px;
+  font-family: var(--font);
 }
 
-.logo-image{
-    width: 6vw;
+.logo-image {
+  width: 6vw;
 }
 
-.navul li{
-    border: 1px solid transparent;
-    display: inline-block;
-    padding: 0.2vw 0.5vw;
-    font-size: 1.7vw;
-    font-family: var(--font);
-    transition: all 0.2s linear;
+.navul li {
+  border: 1px solid transparent;
+  display: inline-block;
+  padding: 0.2vw 0.5vw;
+  font-size: 1.7vw;
+  font-family: var(--font);
+  transition: all 0.2s linear;
 }
 
-.navul a{
-    color: rgb(63, 63, 63);
-    font-weight: bold;
+.navul a {
+  color: rgb(63, 63, 63);
+  font-weight: bold;
 }
 
-.navul li:hover{
-    border-bottom: 1px solid var(--gray);
+.navul li:hover {
+  border-bottom: 1px solid var(--gray);
 }
 
-.divOne{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: antiquewhite;
+.divOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
 }
 
-.imgDiv{
-    /* width: 50%; */
+.imgDiv {
+  /* width: 50%; */
 }
 
-.imageOne{
-    display: block;
-    width: 100%;
-    border: 1px solid green;
+.imageOne {
+  display: block;
+  width: 50%;
+  border: 1px solid green;
 }
 
-.contentOne{
-    padding: 2vw;
-}
-   
-.contentOne h2{
-    font-size: 2vw;
-    font-family: 'Playfair Display', serif;
-    font-weight: bolder;
-    margin: 2vw auto;
-    letter-spacing: 1px;
+.contentOne {
+  padding: 2vw;
+  width: 50%;
 }
 
-.contentOne p{
-    font-weight: bold;
-    font-size: 1vw;
-    font-family: var(--paraFont);
+.contentOne h2 {
+  font-size: 2vw;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  margin: 2vw auto;
+  letter-spacing: 1px;
 }
 
-.pathsDiv1{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 1vw auto;
+.contentOne p {
+  font-weight: bold;
+  font-size: 1vw;
+  font-family: var(--paraFont);
 }
 
-.common{
-    padding: 1vw 0vw;
-    text-align: center;
-    font-family: var(--paraFont);
-    letter-spacing: 1px;
-    color: var(--gray);
-    font-weight: bolder;
-    transition: all 0.2s linear;
-    min-width: 12vw; 
+.pathsDiv1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1vw auto;
 }
 
-.common:hover{
-    background-color: transparent;
-    color: var(--black);
+.common {
+  padding: 1vw 0vw;
+  text-align: center;
+  font-family: var(--paraFont);
+  letter-spacing: 1px;
+  color: var(--gray);
+  font-weight: bolder;
+  transition: all 0.2s linear;
+  min-width: 12vw;
+  font-size: 1.5vw;
 }
 
-.div1{
-    color: white;
-    border: 2px solid rgb(255, 191, 0);
-    background-color: rgb(255, 191, 0);
+.common:hover {
+  background-color: transparent;
+  color: var(--black);
 }
 
-.div2{
-    color: white;
-    background-color: red;
-    border: 2px solid red;
+.div1 {
+  color: white;
+  border: 2px solid rgb(255, 191, 0);
+  background-color: rgb(255, 191, 0);
 }
 
-.div3{
-    color: white;
-    background-color: rgb(10, 176, 176);
-    border: 2px solid rgb(10, 176, 176);
+.div2 {
+  color: white;
+  background-color: red;
+  border: 2px solid red;
 }
 
-.div4{
-    color: white;
-    background-color: rgb(174, 0, 255);
-    border: 2px solid rgb(174, 0, 255);
+.div3 {
+  color: white;
+  background-color: rgb(10, 176, 176);
+  border: 2px solid rgb(10, 176, 176);
 }
 
-.free{
-    text-align: center;
-    margin: 2vw auto;
+.div4 {
+  color: white;
+  background-color: rgb(174, 0, 255);
+  border: 2px solid rgb(174, 0, 255);
 }
 
-.divTwo{
-    margin: 3vw auto;
-    display: flex;
-    align-items: center;
-    align-items: center;
-    padding: 2vw;
-    background-color: azure;
+.free {
+  text-align: center;
+  margin: 2vw auto;
+  font-size: 2vw;
 }
 
-.divTwoLeft{
-    width: 45%;
-    padding: 1vw;
+/* --------------DIVTWO-------------------------- */
+
+.divTwo {
+  margin: 3vw auto;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  padding: 2vw;
+  background-color: azure;
 }
 
-.divTwoLeft h1{
-    font-family: var(--headFont);
+.divTwoLeft {
+  width: 45%;
+  padding: 1vw;
 }
 
-.divTwoLeft p{
-    font-family: var(--paraFont);
+.divTwoLeft h1 {
+  font-family: var(--headFont);
+  font-size: 3.5vw;
 }
 
-.divTwoRight{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+.divTwoLeft p {
+  font-family: var(--paraFont);
+  font-size: 1.5vw;
 }
 
-.card-title{
-    position: absolute;
-    top: 70px;
-    right: 0px;
-    padding: 5px 10px;
-    color: white;
-    box-shadow: 4px 4px 6px rgba(4, 4, 4, 0.245);
-    backdrop-filter: blur(10px);
-    width: 120px;
-    font-size: large;
+.divTwoRight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-title {
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  padding: 5px 10px;
+  color: white;
+  box-shadow: 4px 4px 6px rgba(4, 4, 4, 0.245);
+  backdrop-filter: blur(10px);
+  width: 120px;
+  font-size: large;
 }
 
 .flip-card {
-    margin: 10px auto;
-    background-color: transparent;
-    width: 21vw;
-    height: 21vw;
-    perspective: 1000px;
-    position: relative;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    color: black;
-  }
-  
-  .flip-card-back {
-    backdrop-filter: blur(10px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.136);
-    color: var(--gray);
-    transform: rotateY(180deg);
-    padding: 10px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    font-size: 1.2vw;
-  }
+  margin: 10px auto;
+  background-color: transparent;
+  width: 21vw;
+  height: 21vw;
+  perspective: 1000px;
+  position: relative;
+}
 
-  .flipCardImage{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  backdrop-filter: blur(10px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.136);
+  color: var(--gray);
+  transform: rotateY(180deg);
+  padding: 10px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 1.2vw;
+}
+
+.flipCardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.divThree {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 35vw;
+  background-color: rgba(165, 14, 122, 0.941);
+}
+
+.third-div-image {
+  border: 2px solid green;
+}
+
+.thirdImage {
+  width: 58%;
+  height: 100%;
+}
+
+.box {
+  position: absolute;
+  height: 10vw;
+  width: 1vw;
+  background-color: red;
+  top: 40%;
+  left: 57.5%;
+}
+
+.third-content {
+  color: white;
+  padding: 2vw;
+  font-size: 1.5vw;
+  font-family: var(--paraFont);
+}
+
+.third-content a {
+  color: white;
+}
+
+.contact-btn {
+  border: 1px solid white;
+  font-family: var(--paraFont);
+  padding: 5px;
+  margin: 2vw auto;
+  width: 50%;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+
+.contact-btn:hover {
+  letter-spacing: 1px;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(128, 128, 128, 0.245);
+}
+
+/* ------------------------------------- FOURth DIV */
+
+.div-four {
+  display: flex;
+  align-items: center;
+  background-color: rgb(122, 24, 158);
+  color: white;
+  margin: 5vw auto;
+  position: relative;
+}
+
+.four-left {
+  padding: 0vw 2vw;
+  width: 50%;
+}
+
+.four-left > p {
+  font-family: var(--paraFont);
+  font-size: 1.3vw;
+}
+
+.four-left > h1 {
+  font-family: var(--headFont);
+  letter-spacing: 2px;
+  font-size: 4vw;
+}
+
+.four-countries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 2vw;
+}
+
+.four-countries p {
+  font-family: var(--font);
+  width: 12vw;
+  border: 1px solid white;
+  padding: 0.5vw;
+  transition: all 0.2s linear;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.four-countries p:hover {
+  background-color: rgba(255, 255, 255, 0.295);
+  border-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.four-box {
+  position: absolute;
+  height: 10vw;
+  width: 1vw;
+  background-color: red;
+  top: 40%;
+  left: 49.5%;
+}
+
+.four-image {
+  width: 50%;
+  display: block;
+}
 
 
-  .divThree{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    background-color: rgb(137, 1, 130);
-  }
+/* ---------------------FIFTHDIV-------------------------- */
 
-  .third-div-image{
-    width: 50%;
-    height: 100%;
-  }
 
-  .box{
-    width: 10px;
-    height: 10vw;
-    background-color: red;
-    position: absolute;
-    top: 50%;
-    left: 49.5%;
-  }
+.div-five {
+  display: flex;
+  background-color: rgba(255, 209, 4, 0.904);
+  align-items: center;
+}
 
-  .thirdImage{
-    width: 100%;
-  }
+.image-five {
+  width: 50%;
+}
 
-  .third-content{
-    width: 50%;
-    color: white;
-    padding: 2vw;
-    height: 100%;
-  }
+.content-five {
+  font-family: var(--paraFont);
+  font-size: 1.5vw;
+  padding: 2vw;
+  width: 50%;
+  color: var(--gray);
+}
+
+.content-five h1 {
+  font-family: var(--headFont);
+  letter-spacing: 2px;
+}
+
+.five-boxes{
+  margin: 1vw auto;
+}
+
+.five-boxes p{
+  width: 20vw;
+  text-align: center;
+  padding: 1vw;
+  font-size: 1.3vw;
+  border: 1px solid var(--gray);
+  margin: 0.5vw auto;
+}
+
+.group-one{
+  display: flex;
+  justify-content: space-around;
+}
+
+.group-two{
+  display: flex;
+  justify-content: space-around;
+}
+
+.group-three{
+  border: 1px solid var(--gray);
+  padding: 1vw;
+  text-align: center;
+  width: 97%;
+  margin: auto;
+}
+
+/* -------------------------Sixth Div------------------------------- */
+
+.div-six {
+  display: flex;
+  align-items: center;
+  background-color: rgb(24, 91, 158);
+  color: white;
+  margin: 5vw auto;
+  position: relative;
+}
+
+.six-left {
+  padding: 0vw 2vw;
+  width: 50%;
+}
+
+.six-left > p {
+  font-family: var(--paraFont);
+  font-size: 1.3vw;
+}
+
+.six-left > h1 {
+  font-family: var(--headFont);
+  letter-spacing: 2px;
+  font-size: 4vw;
+}
+
+.six-countries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+}
+
+.six-countries p {
+  font-family: var(--font);
+  width: 18vw;
+  border: 1px solid white;
+  padding: 0.5vw;
+  transition: all 0.2s linear;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.six-countries p:hover {
+  background-color: rgba(255, 255, 255, 0.295);
+  border-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.six-box {
+  position: absolute;
+  height: 10vw;
+  width: 1vw;
+  background-color: red;
+  top: 40%;
+  left: 49.5%;
+}
+
+.six-image {
+  width: 50%;
+  display: block;
+}
