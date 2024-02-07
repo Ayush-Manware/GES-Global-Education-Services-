@@ -1,36 +1,32 @@
+// var navTwo = document.getElementById("#nav-two");
 
-let navul = document.getElementById('$nav')
+// var menu = document.getElementById("#menu")
 
-function menuFunction(){
-navul.classList.add('new-ul')
+// function toggle(){
+//   navTwo.setAttribute('class','show')
+// }
+
+// function hide(){
+//   navTwo.setAttribute("class","hide")
+// }
+
+var navTwo = document.getElementById("nav-two");
+var menu = document.getElementById("menu");
+
+function toggle() {
+    if (navTwo.classList.contains("show")) {
+        hide();
+    } else {
+        show();
+    }
 }
-  
-  
-  let slideIndex = 0;
-  const slides = document.querySelectorAll('.slide');
-  const totalSlides = slides.length;
-  const nextBtn = document.querySelector('.next');
-  const prevBtn = document.querySelector('.prev');
 
-  function showSlide(n) {
-    slideIndex = (n + totalSlides) % totalSlides;
-    slides.forEach(slide => {
-      slide.style.display = 'none';
-    });
-    slides[slideIndex].style.display = 'block';
-  }
+function show() {
+    navTwo.setAttribute("class", "show");
+}
 
-  function nextSlide() {
-    showSlide(slideIndex + 1);
-  }
-
-  function prevSlide() {
-    showSlide(slideIndex - 1);
-  }
-
-  nextBtn.addEventListener('click', nextSlide);
-  prevBtn.addEventListener('click', prevSlide);
-
-  showSlide(slideIndex);
+function hide() {
+    navTwo.setAttribute("class", "hide");
+}
 
 

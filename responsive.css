@@ -1,23 +1,22 @@
 /* For small devices (phones) */
 @media (max-width: 576px) {
-
-  .navbar{
+  .navbar {
     margin: 2vw auto;
     position: relative;
   }
 
-  .nav-two{
-    display: none;
+  .navul-two {
     position: absolute;
-    top: 1px;
-    right: 1px;
+    top: 15vw;
+    right: 3vw;
     background-color: rgba(0, 0, 0, 0.792);
     padding: 2vw;
     width: 30vw;
     text-align: center;
+    z-index: 2;
   }
 
-  .navul-two li{
+  .navul-two li {
     border-bottom: 1px solid rgb(255, 255, 255);
     margin: 1vw;
     padding: 2vw;
@@ -25,106 +24,110 @@
     list-style-type: none;
   }
 
-  .navul-two li a{
+  .navul-two li a {
     color: rgb(240, 70, 70);
   }
 
-  .logo-image{
-        width: 18vw;
-        padding: 0vw 1vw;
+  .logo-image {
+    width: 18vw;
+    padding: 0vw 1vw;
   }
 
-  .menu{
-        display: block;
-        padding: 0vw 3vw;
-        font-size: 4vw;
+  .menu {
+    display: block;
+    padding: 0vw 3vw;
+    font-size: 4vw;
   }
 
-  .menu:hover  .nav-two{
+  .show {
     display: block;
   }
 
-  .nav{
-        display: none;
+  .hide {
+    display: none;
   }
 
-    .topbarul{
-      text-align: right;
-    }
+  .nav {
+    display: none;
+  }
 
-    .topbarul li{
+  .topbarul {
+    text-align: right;
+  }
+
+  .topbarul li {
     font-size: 2.5vw;
-    }
+  }
 
-    .divOne{
-      flex-direction: column;
-    }
+  .divOne {
+    flex-direction: column;
+  }
 
-    .imageOne{
-      width: 100%;
-    }
+  .imageOne {
+    width: 100%;
+  }
 
-    .contentOne{
-      width: 100%;
-    }
+  .contentOne {
+    width: 100%;
+  }
 
-  .contentOne h2{
+  .contentOne h2 {
     font-size: 4vw;
     letter-spacing: 2px;
   }
 
-  .contentOne p{
+  .contentOne p {
     font-size: 2vw;
   }
 
-  .common{
+  .common {
     padding: 2vw 5vw;
     width: 30vw;
     font-size: 3vw;
   }
 
-  .pathsDiv1{
-    margin: 4vw auto; 
+  .pathsDiv1 {
+    margin: 4vw auto;
   }
 
-  .free{
+  .free {
     font-size: 3vw;
   }
 
-  .divTwo{
+  .divTwo {
     flex-direction: column;
   }
-  
-  .divTwoLeft{
+
+  .divTwoLeft {
     width: 100%;
   }
 
-  .divTwoLeft h1{
+  .divTwoLeft h1 {
     font-size: 5.5vw;
   }
 
-  .divTwoLeft p{
+  .divTwoLeft p {
     font-size: 3vw;
   }
 
-  .flip-card{
+  .flip-card {
     width: 40vw;
     height: 25vw;
   }
 
-  .flip-card-back{
+  .flip-card-back {
     text-align: center;
   }
 
-  .flip-card-back p{
+  .flip-card-back p {
     margin: 0.6vw auto;
   }
 
-  .flip-card-back{
+  .flip-card-back {
     font-size: 1.4vw;
   }
 
-  .thirdImage{
+  .thirdImage {
     width: 45%;
   }
 
@@ -132,31 +135,31 @@
     left: 44.5%;
     top: 22%;
     height: 27vw;
-  } 
+  }
 
-  .third-content{
+  .third-content {
     width: 55%;
   }
 
-  .third-content h1{
+  .third-content h1 {
     font-size: 7vw;
   }
-   
-  .third-content p{
+
+  .third-content p {
     font-size: 2vw;
   }
 
-  .contact-btn{
+  .contact-btn {
     font-size: 2vw;
     letter-spacing: 2px;
     margin: 2vw 0vw;
   }
 
-  .div-four{
+  .div-four {
     flex-direction: column-reverse;
   }
 
-  .four-box{
+  .four-box {
     height: 65vw;
     width: 1.2vw;
     background-color: red;
@@ -165,16 +168,16 @@
     rotate: 90deg;
   }
 
-  .four-image{
+  .four-image {
     width: 100%;
   }
 
-  .four-left{
+  .four-left {
     padding: 1vw;
     width: 100%;
   }
 
-  .four-left > h1{
+  .four-left > h1 {
     font-size: 6vw;
   }
 
@@ -182,164 +185,160 @@
     font-size: 2.3vw;
   }
 
-  .four-countries p{
+  .four-countries p {
     font-size: 3vw;
     width: 28vw;
   }
 
-  .image-five{
+  .image-five {
     margin-left: 1vw;
   }
 
-  .content-five h1{
+  .content-five h1 {
     font-size: 6vw;
   }
 
-  .content-five p{
+  .content-five p {
     font-size: 2.2vw;
   }
 
-  .group-three{
+  .group-three {
     font-size: 2vw;
   }
 
-  .div-six{
+  .div-six {
     padding: 2vw;
   }
 
-  .six-image{
+  .six-image {
     display: none;
   }
 
-  .six-box{
+  .six-box {
     display: none;
   }
 
-  .six-left{
+  .six-left {
     width: 100%;
     margin: auto;
     /* border: 2px solid white; */
-    padding: 2vw; 
+    padding: 2vw;
   }
 
-  .six-left > h1{
-    font-size: 6vw; 
+  .six-left > h1 {
+    font-size: 6vw;
   }
 
-  .six-left > p{
+  .six-left > p {
     font-size: 3vw;
   }
 
-  .six-countries p{
+  .six-countries p {
     font-size: 3vw;
     width: 43vw;
     padding: 2vw;
   }
 
-  .six-countries p:last-child{
+  .six-countries p:last-child {
     width: 99%;
   }
 
-  .div-seven{
+  .div-seven {
     flex-direction: column-reverse;
-    border: none; 
+    border: none;
   }
 
-  .seven-image{
+  .seven-image {
     width: 100%;
   }
 
-  .seven-content{
+  .seven-content {
     width: 100%;
   }
 
-  .seven-content h1{
+  .seven-content h1 {
     font-size: 5vw;
     display: inline-block;
   }
 
-  .read-more-btn{
+  .read-more-btn {
     font-size: 3vw;
     width: 20vw;
     float: right;
   }
 
-  .seven-why{
+  .seven-why {
     margin: 4vw auto;
   }
 
-  .seven-divs{
+  .seven-divs {
     font-size: 2.5vw;
     border: none;
     height: 20vw;
     padding: 1vw;
-    box-shadow:  0px 3px 5px rgba(0, 0, 0, 0.152);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.152);
   }
 
-  .seven-divs i{
+  .seven-divs i {
     font-size: 5vw;
   }
 
-  .footer-main{
+  .footer-main {
     padding: 2vw;
   }
 
-  .footer-one{
+  .footer-one {
     flex-direction: column-reverse;
   }
 
-  .social-media{
+  .social-media {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
 
-  .social-media p{
+  .social-media p {
     display: inline-block;
     align-items: center;
   }
 
-  .social-media img{
+  .social-media img {
     width: 6vw;
     display: block;
   }
 
-  .addresses{
+  .addresses {
     width: 100%;
     margin: 1vw auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.156);
   }
 
-  .addresses img{
+  .addresses img {
     display: block;
     width: 10vw;
     margin: auto;
   }
 
-  .footer-right p{
+  .footer-right p {
     font-size: 2.2vw;
   }
 
-  .addresses h3{
+  .addresses h3 {
     font-size: 3vw;
   }
+}
 
+/* For medium devices (tablets) */
+@media (min-width: 576px) and (max-width: 768px) {
+}
 
-  }
-  
-  /* For medium devices (tablets) */
-  @media (min-width: 576px) and (max-width: 768px) {
+/* For large devices (laptops/desktops) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles specific to large devices */
+}
 
-  }
-  
-  /* For large devices (laptops/desktops) */
-  @media (min-width: 992px) and (max-width: 1200px) {
-    /* CSS styles specific to large devices */
-  }
-  
-  /* For extra large devices (large desktops/tvs) */
-  @media (min-width: 1200px) {
-    /* CSS styles specific to extra large devices */
-  }
-  
+/* For extra large devices (large desktops/tvs) */
+@media (min-width: 1200px) {
+  /* CSS styles specific to extra large devices */
+}

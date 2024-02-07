@@ -1,306 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./responsive.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
     <title>Immigration and Visa Consultant</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="mainContainer">
-
-    <div class="navbar">
+      <div class="navbar">
         <div class="logo">
-            <img src="./assets/WhatsApp Image 2024-02-05 at 7.55.10 PM.jpeg" alt="#logo" class="logo-image">
+          <img
+            src="./assets/WhatsApp Image 2024-02-05 at 7.55.10 PM.jpeg"
+            alt="#logo"
+            class="logo-image"
+          />
         </div>
 
-        <div class="menu">
-          <i class="fa-solid fa-bars" ></i>
+        <div class="menu" id="menu" onclick="toggle()">
+          <i class="fa-solid fa-bars"></i>
         </div>
 
-        <div class="nav" id="$nav">
-            <ul class="navul" id="$navul">
-                <li><a href="#">Home</a></li>
-                <li><a href="./company.html">Company</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./gallery.html">Gallery</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-
-        <div class="nav-two" id="$nav-two">
-          <ul class="navul-two" id="$navul-two">
-              <li><a href="#">Home</a></li>
-              <li><a href="./company.html">Company</a></li>
-              <li><a href="./services.html">Services</a></li>
-              <li><a href="./gallery.html">Gallery</a></li>
-              <li><a href="./contact.html">Contact Us</a></li>
+        <div class="nav" id="#nav">
+          <ul class="navul" id="$navul">
+            <li><a href="#">Home</a></li>
+            <li><a href="./company.html">Company</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
           </ul>
-      </div>
-    </div>
-
-    <div class="topbar">
-        <ul class="topbarul">
-            <li><a href="#"><i class="fa-solid fa-mobile-screen"></i> 7670 800 000</a></li>
-            <li><a href="#"><i class="fa-brands fa-whatsapp"></i> +91 880 221 9999</a></li>
-          <b><li><a href="#">Sign up</a></li></b>
-          <b><li><a href="#">Login</a></li></b>
-        </ul>
-    </div>
-
-    <div class="divOne">
-        <img class="imageOne" src="./assets/one.webp" alt="error-/">
-        <div class="contentOne">
-            <h2>Thank you for taking the first step to become a Global Indian</h2>
-            <p>Choose Your Path :</p>
-            <div class="pathsDiv1">
-                <div class="div1 common">Study</div>
-                <div class="div2 common">Migrate</div>
-            </div>
-            <div class="pathsDiv1">    
-                <div class="div3 common">Work</div>
-                <div class="div4 common">Invest</div>
-            </div>
-            <div class="free">
-                <h3>Dont't Know What To Do?</h3>
-                <p>Get a free counselling..</p>
-            </div>
         </div>
-    </div>
+      </div>
 
-    <div class="divTwo">
+      <div class="nav-two" id="nav-two">
+        <ul class="navul-two" id="navul-two">
+          <li><a href="#">Home</a></li>
+          <li><a href="./company.html">Company</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="topbar">
+        <ul class="topbarul">
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-mobile-screen"></i> 7670 800 000</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-brands fa-whatsapp"></i> +91 880 221 9999</a
+            >
+          </li>
+          <b
+            ><li><a href="#">Sign up</a></li></b
+          >
+          <b
+            ><li><a href="#">Login</a></li></b
+          >
+        </ul>
+      </div>
+
+      <div class="divOne">
+        <img class="imageOne" src="./assets/one.webp" alt="error-/" />
+        <div class="contentOne">
+          <h2>Thank you for taking the first step to become a Global Indian</h2>
+          <p>Choose Your Path :</p>
+          <div class="pathsDiv1">
+            <div class="div1 common">Study</div>
+            <div class="div2 common">Migrate</div>
+          </div>
+          <div class="pathsDiv1">
+            <div class="div3 common">Work</div>
+            <div class="div4 common">Invest</div>
+          </div>
+          <div class="free">
+            <h3>Dont't Know What To Do?</h3>
+            <p>Get a free counselling..</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="divTwo">
         <div class="divTwoLeft">
-            <h1>Popular Visa</h1> <br>
-            <p>GES offers expert guidance and support that increases your chances of visa success.</p>
+          <h1>Popular Visa</h1>
+          <br />
+          <p>
+            GES offers expert guidance and support that increases your chances
+            of visa success.
+          </p>
         </div>
 
         <div class="divTwoRight">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/map-of-the-world-429784_640.jpg" alt="Avatar" class="flipCardImage">
-                    <p class="card-title">Canada <i class="fa-solid fa-chevron-down"></i></p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Canada</h1> 
-                    <br>
-                    <p><i class="fa-solid fa-chevron-right"></i> PR Visa</p> 
-                    <p><i class="fa-solid fa-chevron-right"></i> Work Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Express Entry - Visas</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> PNP - Program</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Business Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Digital Nomad Visa</p>
-                  </div>
-                </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="./assets/map-of-the-world-429784_640.jpg"
+                  alt="Avatar"
+                  class="flipCardImage"
+                />
+                <p class="card-title">
+                  Canada <i class="fa-solid fa-chevron-down"></i>
+                </p>
               </div>
+              <div class="flip-card-back">
+                <h1>Canada</h1>
+                <br />
+                <p><i class="fa-solid fa-chevron-right"></i> PR Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Work Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> Express Entry -
+                  Visas
+                </p>
+                <p><i class="fa-solid fa-chevron-right"></i> PNP - Program</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Business Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> Digital Nomad Visa
+                </p>
+              </div>
+            </div>
+          </div>
 
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/australiamap.webp" alt="Avatar" class="flipCardImage">
-                    <p class="card-title">Australia <i class="fa-solid fa-chevron-down"></i></p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Australia</h1> 
-                    <br>
-                    <p><i class="fa-solid fa-chevron-right"></i> PR Visa</p> 
-                    <p><i class="fa-solid fa-chevron-right"></i> Work Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Subclass 189</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> TSS Visa-482</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
-                  </div>
-                </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="./assets/australiamap.webp"
+                  alt="Avatar"
+                  class="flipCardImage"
+                />
+                <p class="card-title">
+                  Australia <i class="fa-solid fa-chevron-down"></i>
+                </p>
               </div>
+              <div class="flip-card-back">
+                <h1>Australia</h1>
+                <br />
+                <p><i class="fa-solid fa-chevron-right"></i> PR Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Work Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Subclass 189</p>
+                <p><i class="fa-solid fa-chevron-right"></i> TSS Visa-482</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
+              </div>
+            </div>
+          </div>
 
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/germanymap.png" alt="Avatar" class="flipCardImage">
-                    <p class="card-title">Germany <i class="fa-solid fa-chevron-down"></i></p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Germany </h1> 
-                    <br>
-                    <p><i class="fa-solid fa-chevron-right"></i> Jobseeker Visa</p> 
-                    <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i>  Work Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i>  Visit Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Business Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Digital Nomad Visa</p>
-                  </div>
-                </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="./assets/germanymap.png"
+                  alt="Avatar"
+                  class="flipCardImage"
+                />
+                <p class="card-title">
+                  Germany <i class="fa-solid fa-chevron-down"></i>
+                </p>
               </div>
+              <div class="flip-card-back">
+                <h1>Germany</h1>
+                <br />
+                <p><i class="fa-solid fa-chevron-right"></i> Jobseeker Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Work Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Business Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> Digital Nomad Visa
+                </p>
+              </div>
+            </div>
+          </div>
 
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/usamap.webp" alt="Avatar" class="flipCardImage">
-                    <p class="card-title">USA <i class="fa-solid fa-chevron-down"></i></p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>USA</h1> 
-                    <br>
-                    <p><i class="fa-solid fa-chevron-right"></i> H1-B : Work Visa</p> 
-                    <p><i class="fa-solid fa-chevron-right"></i> B1 : Business Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> F1 : Study Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> J1 : Scholar Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> O : Work Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Digital Nomad Visa</p>
-                  </div>
-                </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="./assets/usamap.webp"
+                  alt="Avatar"
+                  class="flipCardImage"
+                />
+                <p class="card-title">
+                  USA <i class="fa-solid fa-chevron-down"></i>
+                </p>
               </div>
+              <div class="flip-card-back">
+                <h1>USA</h1>
+                <br />
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> H1-B : Work Visa
+                </p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> B1 : Business Visa
+                </p>
+                <p><i class="fa-solid fa-chevron-right"></i> F1 : Study Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> J1 : Scholar Visa
+                </p>
+                <p><i class="fa-solid fa-chevron-right"></i> O : Work Visa</p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> Digital Nomad Visa
+                </p>
+              </div>
+            </div>
+          </div>
 
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/united-states-map-1137085_640.jpg" alt="Avatar" class="flipCardImage">
-                    <p class="card-title">UAE <i class="fa-solid fa-chevron-down"></i></p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>UAE</h1> 
-                    <br>
-                    <p><i class="fa-solid fa-chevron-right"></i> Golden Visa</p> 
-                    <p><i class="fa-solid fa-chevron-right"></i> Work Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Green Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Business Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Youth Mobility Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Sponsership Visa</p>
-                  </div>
-                </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="./assets/united-states-map-1137085_640.jpg"
+                  alt="Avatar"
+                  class="flipCardImage"
+                />
+                <p class="card-title">
+                  UAE <i class="fa-solid fa-chevron-down"></i>
+                </p>
               </div>
+              <div class="flip-card-back">
+                <h1>UAE</h1>
+                <br />
+                <p><i class="fa-solid fa-chevron-right"></i> Golden Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Work Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Green Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Visit Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Business Visa</p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> Youth Mobility Visa
+                </p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> Sponsership Visa
+                </p>
+              </div>
+            </div>
+          </div>
 
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./assets/ukmap.jpg" alt="Avatar" class="flipCardImage">
-                    <p class="card-title">UK <i class="fa-solid fa-chevron-down"></i></p>
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>UK</h1> 
-                    <br>
-                    <p><i class="fa-solid fa-chevron-right"></i> WorkVisa</p> 
-                    <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Innovator Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Sponsership Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i> Business Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i>  SPI Visa</p>
-                    <p><i class="fa-solid fa-chevron-right"></i>  Youth Mobility Visa</p>
-                  </div>
-                </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="./assets/ukmap.jpg"
+                  alt="Avatar"
+                  class="flipCardImage"
+                />
+                <p class="card-title">
+                  UK <i class="fa-solid fa-chevron-down"></i>
+                </p>
               </div>
-              
+              <div class="flip-card-back">
+                <h1>UK</h1>
+                <br />
+                <p><i class="fa-solid fa-chevron-right"></i> WorkVisa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Study Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> Innovator Visa</p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> Sponsership Visa
+                </p>
+                <p><i class="fa-solid fa-chevron-right"></i> Business Visa</p>
+                <p><i class="fa-solid fa-chevron-right"></i> SPI Visa</p>
+                <p>
+                  <i class="fa-solid fa-chevron-right"></i> Youth Mobility Visa
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-
-    <div class="divThree">
-            <img src="./assets/two.webp" class="thirdImage" alt="error-/">
-            <div class="box"></div>
+      <div class="divThree">
+        <img src="./assets/two.webp" class="thirdImage" alt="error-/" />
+        <div class="box"></div>
         <div class="third-content">
-            <h1>Counselling</h1>
-            <p>Unlock new opportunities with expert counseling.</p>
-            <div class="contact-btn"><a href="./contact.html">Contact Us</a></div>
-        </div>
-    </div>
-
-
-    <div class="div-four">
-      <div class="four-left">
-        <h1>Migrate</h1> <br>
-        <p>&nbsp;Get personalized migration solutions and join the millions. Sign-up today!</p>
-        <div class="four-countries">
-          <p>Canada</p>
-          <p>Australia</p>
-          <p>Germany</p>
-          <p>UK</p>
-          <p>Singapore</p>
-          <p>Dubai</p>
-          <p>USA</p>
-          <p>UAE</p>
-          <p>Quebec</p>
-          <p>Free Assesement</p>
+          <h1>Counselling</h1>
+          <p>Unlock new opportunities with expert counseling.</p>
+          <div class="contact-btn"><a href="./contact.html">Contact Us</a></div>
         </div>
       </div>
-      <div class="four-box"></div> 
-      <img src="./assets/three.webp" alt="error-/" class="four-image">
-    </div>
- 
 
-    <div class="div-five"> 
-      <img src="./assets/four.webp" alt="error-/" class="image-five">
-      <div class="content-five">
-        <h1>Study</h1>
-        <p>Discover your career Opportunities</p>
-        <div class="five-boxes">
-          <div class="group-one">
-            <p>School Students</p>
-            <p>Graduates</p>
+      <div class="div-four">
+        <div class="four-left">
+          <h1>Migrate</h1>
+          <br />
+          <p>
+            &nbsp;Get personalized migration solutions and join the millions.
+            Sign-up today!
+          </p>
+          <div class="four-countries">
+            <p>Canada</p>
+            <p>Australia</p>
+            <p>Germany</p>
+            <p>UK</p>
+            <p>Singapore</p>
+            <p>Dubai</p>
+            <p>USA</p>
+            <p>UAE</p>
+            <p>Quebec</p>
+            <p>Free Assesement</p>
           </div>
-          <div class="group-two">
-            <p>Professional</p>
-            <p>Parent</p>
-          </div>
-          <div class="group-three">Next <i class="fa-solid fa-chevron-right"></i></div>
         </div>
+        <div class="four-box"></div>
+        <img src="./assets/three.webp" alt="error-/" class="four-image" />
       </div>
-    </div>
 
-    <div class="div-six">
-      <div class="six-left">
-        <h1>Work</h1> 
-        <p>&nbsp;Excited to work overseas? Start here...</p> <br>
-        <div class="six-countries">
-          <p>Post Resume</p>
-          <p>Get Started</p>
-          <p>Job Search Strategy</p>
-          <p>Resume Writing</p>
-          <p>LinkedIn Optimization</p>
-          <p>Resume Marketing</p>
-          <p>Search Overseas Job</p>
-          <p>Chat With us</p>
-          <p>Job Search Service</p>
-        </div>
-      </div>
-      <div class="six-box"></div> 
-      <img src="./assets/five.webp" alt="error-/" class="six-image">
-    </div>
-
-    <div class="div-seven">
-      <div class="seven-content">
-        <h1>Why Choose GES?</h1> 
-        <button class="read-more-btn">Read more</button>
-        <div class="seven-why">
-          <div class="seven-divs">
-            <i class="fa-solid icons fa-user-group"></i> <br> 1 Million Successful Applicant
-          </div>
-
-          <div class="seven-divs">
-            <i class="fa-solid icons fa-circle-nodes"></i> <br> Counselled 10 Million+
-          </div>
-
-          <div class="seven-divs">
-            <i class="fa-solid icons fa-user-tie"></i> <br> Experts Since 1999
-          </div>
-
-          <div class="seven-divs">
-            <i class="fa-solid icons fa-globe"></i> <br> Offices 50+
+      <div class="div-five">
+        <img src="./assets/four.webp" alt="error-/" class="image-five" />
+        <div class="content-five">
+          <h1>Study</h1>
+          <p>Discover your career Opportunities</p>
+          <div class="five-boxes">
+            <div class="group-one">
+              <p>School Students</p>
+              <p>Graduates</p>
+            </div>
+            <div class="group-two">
+              <p>Professional</p>
+              <p>Parent</p>
+            </div>
+            <div class="group-three">
+              Next <i class="fa-solid fa-chevron-right"></i>
+            </div>
           </div>
         </div>
       </div>
-      <img src="./assets/seven.webp" alt="err-/" class="seven-image">
-    </div>
 
-    <!-- <div class="scrollbar">
+      <div class="div-six">
+        <div class="six-left">
+          <h1>Work</h1>
+          <p>&nbsp;Excited to work overseas? Start here...</p>
+          <br />
+          <div class="six-countries">
+            <p>Post Resume</p>
+            <p>Get Started</p>
+            <p>Job Search Strategy</p>
+            <p>Resume Writing</p>
+            <p>LinkedIn Optimization</p>
+            <p>Resume Marketing</p>
+            <p>Search Overseas Job</p>
+            <p>Chat With us</p>
+            <p>Job Search Service</p>
+          </div>
+        </div>
+        <div class="six-box"></div>
+        <img src="./assets/five.webp" alt="error-/" class="six-image" />
+      </div>
+
+      <div class="div-seven">
+        <div class="seven-content">
+          <h1>Why Choose GES?</h1>
+          <button class="read-more-btn">Read more</button>
+          <div class="seven-why">
+            <div class="seven-divs">
+              <i class="fa-solid icons fa-user-group"></i> <br />
+              1 Million Successful Applicant
+            </div>
+
+            <div class="seven-divs">
+              <i class="fa-solid icons fa-circle-nodes"></i> <br />
+              Counselled 10 Million+
+            </div>
+
+            <div class="seven-divs">
+              <i class="fa-solid icons fa-user-tie"></i> <br />
+              Experts Since 1999
+            </div>
+
+            <div class="seven-divs">
+              <i class="fa-solid icons fa-globe"></i> <br />
+              Offices 50+
+            </div>
+          </div>
+        </div>
+        <img src="./assets/seven.webp" alt="err-/" class="seven-image" />
+      </div>
+
+      <!-- <div class="scrollbar">
       <img src="./assets/germanymap.png" alt="Image 3">
       <img src="./assets/germanymap.png" alt="Image 3">
       <img src="./assets/germanymap.png" alt="Image 3">
@@ -315,66 +400,91 @@
       <img src="./assets/germanymap.png" alt="Image 3">
     </div> -->
 
-    <!-- <div class="card-container">
+      <!-- <div class="card-container">
       <img src="" alt="" class="avatar">
       <div class="card-content"></div>
     </div> -->
 
+      <div class="footer-main">
+        <div class="footer-one">
+          <div class="addresses">
+            <h3><img src="./assets/canada.png" alt="" /> Australia</h3>
+            +971 (0)42483900 dubai@y-axis.com www.y-axis.ae
+          </div>
+          <div class="addresses">
+            <h3><img src="./assets/australia.png" alt="" /> UAE</h3>
+            +971 (0)42483900 dubai@y-axis.com www.y-axis.ae
+          </div>
+          <div class="addresses">
+            <h3><img src="./assets/australia.png" alt="" /> UK</h3>
+            +971 (0)42483900 dubai@y-axis.com www.y-axis.ae
+          </div>
+          <div class="addresses">
+            <h3><img src="./assets/canada.png" alt="#canada" /> Canada</h3>
+            +1 226 243 2213 info@y-axis.ca www.y-axis.ca
+          </div>
+          <div class="social-media">
+            <p>Follow us :</p>
+            <img src="./assets/facebook.png" alt="#fb" />
+            <img src="./assets/instagram.png" alt="#insta" />
+            <img src="./assets/linkedin.png" alt="#linkedIn" />
+            <img src="./assets/twitter.png" alt="#twitter" />
+            <img src="./assets/whatsapp.png" alt="#whatsapp" />
+            <img src="./assets/youtube.png" alt="#youtube" />
+          </div>
+        </div>
 
-    <div class="footer-main">
-      <div class="footer-one">
-        <div class="addresses">
-          <h3><img src="./assets/canada.png" alt=""> Australia</h3>
-          +971 (0)42483900
-          dubai@y-axis.com
-          www.y-axis.ae
-        </div>
-        <div class="addresses">
-          <h3><img src="./assets/australia.png" alt=""> UAE</h3>
-          +971 (0)42483900
-          dubai@y-axis.com
-          www.y-axis.ae
-        </div>
-        <div class="addresses">     
-          <h3><img src="./assets/australia.png" alt=""> UK</h3>  
-          +971 (0)42483900
-          dubai@y-axis.com
-          www.y-axis.ae
-        </div>
-        <div class="addresses">
-          <h3><img src="./assets/canada.png" alt="#canada"> Canada</h3>
-          +1 226 243 2213
-          info@y-axis.ca
-          www.y-axis.ca
-        </div>
-        <div class="social-media">
-          <p>Follow us :</p>
-          <img src="./assets/facebook.png" alt="#fb">
-          <img src="./assets/instagram.png" alt="#insta">
-          <img src="./assets/linkedin.png" alt="#linkedIn">
-          <img src="./assets/twitter.png" alt="#twitter">
-          <img src="./assets/whatsapp.png" alt="#whatsapp">
-          <img src="./assets/youtube.png" alt="#youtube">
-        </div>
-      </div>
-
-      <div class="footer-two">
-        <img src="./assets/WhatsApp Image 2024-02-05 at 7.55.10 PM.jpeg" alt="#logo" class="footer-logo">
-        <div class="footer-right">
-          <p><b>Visit Visas :</b> Australia | Canada | UK | USA | Schengen | Belgium | Austria | Denmark | Finland | Hungary | Malta | Netherlands | Luxembourg | Italy</p>
-          <p><b>Dependant Visas :</b> Australia | Australia Parent Migration | Canada | Canada Parent Migration | UK | USA</p>
-          <p><b>Business Visas :</b> Australia | Canada | UK | Germany | USA | Nova Scotia | Austria | Belgium | Greece | Italy | Netherlands</p>
-          <p><b>Migrate :</b> Australia | Canada | Germany | UK | USA | UAE | Austria |  Hongkong | Quebec | Singapore | Denmark | Portugal</p>
-          <p><b>Work :</b> Canada | FSTP | Canada-PNP |  Australia |  Australia Graduate Work Visa | Australia Skilled Migration | TSS | UK Tier 2 | H-1B | Hong Kong QMAs | Ireland | South Africa</p>
-          <p><b>Study :</b> Australia | Canada | France | Germany | UK | USA | Ireland | Europe | Denmark | Finland | Luxembourg | Education Loan | SOP | LOR | Admission | Course | Document | Y-Path</p>
-          <p><b>Invest :</b> Australia | British Columbia | Denmark | Estonia | Ireland |  Malta | Manitoba | UK Innovator Visa | UK - Expansion Work Visa</p>
-          <p><b>Coaching :</b> GMAT | GRE | IELTS | PTE | TOEFL | SAT | German Language | Foreign Language | Demo Videos | Free Demo Classes</p>
+        <div class="footer-two">
+          <img
+            src="./assets/WhatsApp Image 2024-02-05 at 7.55.10 PM.jpeg"
+            alt="#logo"
+            class="footer-logo"
+          />
+          <div class="footer-right">
+            <p>
+              <b>Visit Visas :</b> Australia | Canada | UK | USA | Schengen |
+              Belgium | Austria | Denmark | Finland | Hungary | Malta |
+              Netherlands | Luxembourg | Italy
+            </p>
+            <p>
+              <b>Dependant Visas :</b> Australia | Australia Parent Migration |
+              Canada | Canada Parent Migration | UK | USA
+            </p>
+            <p>
+              <b>Business Visas :</b> Australia | Canada | UK | Germany | USA |
+              Nova Scotia | Austria | Belgium | Greece | Italy | Netherlands
+            </p>
+            <p>
+              <b>Migrate :</b> Australia | Canada | Germany | UK | USA | UAE |
+              Austria | Hongkong | Quebec | Singapore | Denmark | Portugal
+            </p>
+            <p>
+              <b>Work :</b> Canada | FSTP | Canada-PNP | Australia | Australia
+              Graduate Work Visa | Australia Skilled Migration | TSS | UK Tier 2
+              | H-1B | Hong Kong QMAs | Ireland | South Africa
+            </p>
+            <p>
+              <b>Study :</b> Australia | Canada | France | Germany | UK | USA |
+              Ireland | Europe | Denmark | Finland | Luxembourg | Education Loan
+              | SOP | LOR | Admission | Course | Document | Y-Path
+            </p>
+            <p>
+              <b>Invest :</b> Australia | British Columbia | Denmark | Estonia |
+              Ireland | Malta | Manitoba | UK Innovator Visa | UK - Expansion
+              Work Visa
+            </p>
+            <p>
+              <b>Coaching :</b> GMAT | GRE | IELTS | PTE | TOEFL | SAT | German
+              Language | Foreign Language | Demo Videos | Free Demo Classes
+            </p>
+          </div>
         </div>
       </div>
     </div>
-
-</div>
-<script src="https://kit.fontawesome.com/078812abb6.js" crossorigin="anonymous"></script>
-<script src="./script.js"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/078812abb6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
