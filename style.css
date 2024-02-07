@@ -738,3 +738,65 @@ img {
   letter-spacing: 1px;
   margin: 0.5vw auto;
 }
+
+/* ------------------------------------About Us page---------------------- */
+
+.about-us{
+  font-family: var(--paraFont);
+  font-weight: bold;
+  color: var(--gray);
+  font-size: 4vw;
+}
+
+.about-one{
+  font-size: 1.5vw;
+  font-family: var(--font);
+}
+
+.slider-main-div{
+  border: 1px solid gray;
+  border-right: none;
+  border-left: none;
+  margin: 2vw auto;
+  padding: 2vw;
+}
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+}
+
+.slide img {
+  width: 15vw; /* Adjust size as needed */
+  border-radius: 50%; /* To make the image circular */
+}
+
+.slide p {
+  margin: 10px 0;
+}
+
+.slide span {
+  font-style: italic;
+}
+
+/* Show the first slide initially */
+.slide:first-child {
+  display: block;
+}
+
+.slider-image{
+  object-fit: cover;
+}
+
+/* Animation for sliding */
+@keyframes slide {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
