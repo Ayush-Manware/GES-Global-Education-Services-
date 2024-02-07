@@ -759,6 +759,7 @@ img {
   border-left: none;
   margin: 2vw auto;
   padding: 2vw;
+  background-color: antiquewhite;
 }
 
 .slider-container {
@@ -774,8 +775,8 @@ img {
 }
 
 .slide img {
-  width: 15vw; /* Adjust size as needed */
-  border-radius: 50%; /* To make the image circular */
+  width: 15vw; 
+  border-radius: 50%; 
 }
 
 .slide p {
@@ -786,7 +787,6 @@ img {
   font-style: italic;
 }
 
-/* Show the first slide initially */
 .slide:first-child {
   display: block;
 }
@@ -795,8 +795,141 @@ img {
   object-fit: cover;
 }
 
-/* Animation for sliding */
 @keyframes slide {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+/* -------------------------------------About Us---------------------------------- */
+
+.services-div-one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vw auto;
+  padding: 1vw 10vw;
+  font-family: var(--paraFont);
+  box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.096);
+  border-radius: 20px;
+}
+
+.services-div-one h3{
+  border-left: 1px solid red;
+  background-image: linear-gradient(90deg,rgb(247, 94, 94), transparent);
+  border-radius: 2vw;
+  margin: 1vw auto;
+  padding: 1vw;
+}
+
+.services-div-one ::-webkit-scrollbar {
+  width: 5px;
+}
+
+.services-div-one ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.services-div-one ::-webkit-scrollbar-thumb {
+  background: #ff0000;
+  border-radius: 10vw;
+}
+
+.services-div-one ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.services-div-one ul{
+  height: 20vw;
+  width: 20vw;
+  padding: 1vw;
+}
+
+.country-ul{
+  overflow-y: scroll;
+}
+
+.services-div-one ul li{
+  list-style-type: none;
+  font-size: 1.2vw;
+}
+
+.services-div-two{
+  display: flex;
+  background-color: rgb(255, 191, 0);
+  margin: 2vw auto;
+}
+
+.service-img-two{
+  display: block;
+  width: 50%;
+}
+
+.service-two-right{
+  width: 45%;
+  padding: 1vw 5vw;
+}
+
+.service-flag{
+  width: 5vw;
+  height: auto;
+}
+
+.service-two-right h1{
+  font-family: var(--headFont);
+  letter-spacing: 2px;
+}
+
+
+.service-two-right p{
+  font-size: 1.5vw;
+  margin: 1vw auto;
+  font-family: var(--paraFont);
+}
+
+.get-started{
+  width: 50%;
+  padding: 1vw;
+  font-size: 1.5vw;
+  border: 2px solid rgb(241, 69, 69);
+  background-color: rgb(241, 69, 69);
+}
+
+.get-started a {
+  color: white;
+}
+
+.service-div-three{
+  padding: 2vw;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.126);
+}
+
+.process{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1vw;
+  text-align: center;
+}
+
+.service-div-three h2{
+  font-size: 3vw;
+  font-family: var(--headFont);
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.service-div-three p{
+  text-align: center;
+  margin: 1vw;
+  font-size: 1.5vw;
+  font-family: var(--paraFont);
+}
+
+.process-img{
+  width: 5vw;
+}
+
+.arrow{
+  width: 5vw;
 }

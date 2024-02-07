@@ -327,6 +327,21 @@
   .addresses h3 {
     font-size: 3vw;
   }
+
+  .about-us{
+    margin: 1vw auto;
+    font-size: 8vw;
+  }
+
+  .about-one{
+    font-size: 4vw;
+  }
+
+  .slider-main-div{
+    height: 60vw;
+    margin: 5vw auto;
+  }
+
 }
 
 /* For medium devices (tablets) */
