@@ -1,4 +1,11 @@
 
+let navul = document.getElementById('$nav')
+
+function menuFunction(){
+navul.classList.add('new-ul')
+}
+  
+  
   let slideIndex = 0;
   const slides = document.querySelectorAll('.slide');
   const totalSlides = slides.length;
@@ -25,3 +32,5 @@
   prevBtn.addEventListener('click', prevSlide);
 
   showSlide(slideIndex);
+
+
