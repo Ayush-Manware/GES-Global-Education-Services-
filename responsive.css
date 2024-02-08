@@ -163,7 +163,7 @@
     height: 65vw;
     width: 1.2vw;
     background-color: red;
-    top: 28%;
+    top: 22%;
     left: 33%;
     rotate: 90deg;
   }
@@ -178,16 +178,16 @@
   }
 
   .four-left > h1 {
-    font-size: 6vw;
+    font-size: 10vw;
   }
 
   .four-left > p {
-    font-size: 2.3vw;
+    font-size: 4vw;
   }
 
   .four-countries p {
-    font-size: 3vw;
-    width: 28vw;
+    font-size: 4vw;
+    width: 43vw;
   }
 
   .image-five {
@@ -231,15 +231,15 @@
   }
 
   .six-left > h1 {
-    font-size: 6vw;
+    font-size: 12vw;
   }
 
   .six-left > p {
-    font-size: 3vw;
+    font-size: 6vw;
   }
 
   .six-countries p {
-    font-size: 3vw;
+    font-size: 4vw;
     width: 43vw;
     padding: 2vw;
   }
@@ -429,6 +429,29 @@
     width: 12vw;
     margin: 2vw;
     rotate: 90deg;
+  }
+
+  .why-imigrate {
+    padding: 1vw;
+  }
+
+  .why-imigrate h1{
+    font-size: 10vw;
+    text-align: center;
+  }
+
+  .why-imigrate ul{
+    padding: 3vw;
+  }
+
+  .why-imigrate li{
+    font-size: 4vw;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .why-imigrate p{
+    font-size: 4vw;
   }
 
 }
