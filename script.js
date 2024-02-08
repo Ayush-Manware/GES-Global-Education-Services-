@@ -1,14 +1,4 @@
-// var navTwo = document.getElementById("#nav-two");
 
-// var menu = document.getElementById("#menu")
-
-// function toggle(){
-//   navTwo.setAttribute('class','show')
-// }
-
-// function hide(){
-//   navTwo.setAttribute("class","hide")
-// }
 
 var navTwo = document.getElementById("nav-two");
 var menu = document.getElementById("menu");
@@ -45,7 +35,6 @@ function nextSlide() {
     showSlide(currentSlide);
 }
 
-// Change slide every 3 seconds (adjust as needed)
 setInterval(nextSlide, 3000);
 
 
