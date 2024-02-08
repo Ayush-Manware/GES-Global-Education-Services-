@@ -29,14 +29,14 @@
   }
 
   .logo-image {
-    width: 18vw;
+    width: 22vw;
     padding: 0vw 1vw;
   }
 
   .menu {
     display: block;
     padding: 0vw 3vw;
-    font-size: 4vw;
+    font-size: 6vw;
   }
 
   .show {
@@ -56,7 +56,7 @@
   }
 
   .topbarul li {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .divOne {
@@ -195,15 +195,20 @@
   }
 
   .content-five h1 {
-    font-size: 6vw;
+    font-size: 8vw;
   }
 
   .content-five p {
-    font-size: 2.2vw;
+    font-size: 4vw;
+    margin: 1vw auto;
+  }
+
+  .five-boxes p{
+    width: 43vw;
   }
 
   .group-three {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
   .div-six {
@@ -342,6 +347,90 @@
     margin: 5vw auto;
   }
 
+  .div-five{
+    flex-direction: column;
+  }
+
+  .image-five{
+    margin: auto;
+    width: 100%;
+  }
+
+  .content-five{
+    width: 100%;
+  }
+
+  .services-div-one{
+    padding: 3vw;
+    border-radius: 0px;
+    flex-direction: column;
+  }
+
+  .services-div-one ul{
+    width: 90vw;
+    height: 40vw;
+    margin: 2vw auto;
+  }
+
+  .services-div-one ul li{
+    font-size: 4vw;
+  }
+
+  .services-div-two{
+    flex-direction: column;
+  }
+
+  .service-img-two{
+    width: 100%;
+  }
+
+  .service-flag{
+    width: 22vw;
+    margin: auto;
+    display: block;
+  }
+
+  .service-two-right{
+    padding: 5vw;
+  }
+
+  .service-two-right{
+    width: 100%;
+  }
+
+  .service-two-right p{
+    font-size: 5vw;
+  }
+
+  .get-started{
+    width: 100%;
+    font-size: 4vw;
+    padding: 2vw 0vw;
+    letter-spacing: 2px;
+  }
+
+  .service-div-three h2{
+    font-size: 12vw;
+  }
+
+  .service-div-three p{
+    font-size: 4vw;
+  }
+
+  .process{
+    flex-direction: column;
+  }
+
+  .process-img{
+    width: 26vw;
+  }
+
+  .arrow{
+    width: 12vw;
+    margin: 2vw;
+    rotate: 90deg;
+  }
+
 }
 
 /* For medium devices (tablets) */
@@ -354,6 +443,6 @@
 }
 
 /* For extra large devices (large desktops/tvs) */
-@media (min-width: 1200px) {
+@media (min-width: 1200px ) {
   /* CSS styles specific to extra large devices */
 }
