@@ -699,13 +699,14 @@ img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  gap: 4vw;
 }
 
 .addresses{
   box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.215);
   text-align: center;
   padding: 1vw;
-  width: 15vw;
+  width: 17vw;
   background-color: white;
   font-family: var(--paraFont);
 }
