@@ -470,6 +470,10 @@ a {
   margin: auto;
 }
 
+.group-three a{
+  color: var(--black);
+}
+
 /* -------------------------Sixth Div------------------------------- */
 
 .div-six {
@@ -1024,3 +1028,78 @@ img {
   background-color: white;
   color: rgb(115,192,70);
 }
+
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.3vw;
+  font-family: var(--paraFont);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 1.5vw;
+}
+
+.contact-banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+  /* background-color: violet; */
+  box-shadow:  3px 3px 6px rgba(0, 0, 0, 0.167);
+  box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.167);
+  /* border: 1px solid gray; */
+}
+
+.contact-image{
+  display: block;
+  width: 50%;
+}
+
+.appointment{
+  color: white;
+  padding: 1vw;
+  margin: 1vw auto;
+  display: block;
+  text-align: center;
+  background-color: rgb(76, 76, 248);
+  border: 1px solid rgb(76, 76, 248);
+  font-size: 1.7vw;
+  font-family: var(--paraFont);
+}
+
+.form{
+  color: var(--black);
+}
+
+.form h3{
+  font-size: 2vw;
+  text-align: center;
+  margin: 1vw auto; 
+  font-family: var(--paraFont);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

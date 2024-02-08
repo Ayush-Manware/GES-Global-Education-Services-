@@ -454,6 +454,57 @@
     font-size: 4vw;
   }
 
+  .invest-flex{
+    flex-direction: column;
+  }
+
+  .invest-div h1{
+    font-size: 8vw;
+  }
+
+  .invest-div p{
+    font-size: 4vw;
+  }
+
+  .invest-divs{
+    width: 100%;
+    margin: 3vw auto;
+  }
+
+  .contact-us-btn{
+    width: 30vw;
+    font-size: 4vw;
+  }
+
+  .invest-img{
+    width: 15%;
+  }
+
+  .contact-banner{
+    flex-direction: column;
+  }
+
+  .contact-image{
+    width: 100%;
+  }
+
+  .form h3{
+    font-size: 8vw;
+  }
+
+  label{
+    font-size: 4vw;
+    font-weight: 100;
+  }
+
+  input[type="text"], input[type="email"], textarea{
+    font-size: 4vw;
+  }
+
+  .appointment{
+    font-size: 5vw;
+  }
+
 }
 
 /* For medium devices (tablets) */

@@ -49,4 +49,13 @@ function nextSlide() {
 setInterval(nextSlide, 3000);
 
 
+$(document).ready(function () {
+    $('input[type=submit]').click(function () {
+      $('input[type=submit]').toggleClass('red');
+    });
+  });
+
+
+  
+
 

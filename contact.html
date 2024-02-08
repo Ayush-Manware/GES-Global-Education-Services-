@@ -9,68 +9,170 @@
     <link rel="stylesheet" href="./responsive.css" />
   </head>
   <body>
-    <div class="navbar">
-      <div class="logo">
-        <img
-          src="./assets/WhatsApp Image 2024-02-05 at 7.55.10 PM.jpeg"
-          alt="#logo"
-          class="logo-image"
-        />
+    <div class="mainContainer">
+      <div class="navbar">
+        <div class="logo">
+          <img
+            src="./assets/WhatsApp Image 2024-02-05 at 7.55.10 PM.jpeg"
+            alt="#logo"
+            class="logo-image"
+          />
+        </div>
+
+        <div class="menu" id="menu" onclick="toggle()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="nav" id="#nav">
+          <ul class="navul" id="$navul">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutus.html">About Us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <!-- <li><a href="./gallery.html">Gallery</a></li> -->
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="menu" id="menu" onclick="toggle()">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-
-      <div class="nav" id="#nav">
-        <ul class="navul" id="$navul">
-          <li><a href="#">Home</a></li>
+      <div class="nav-two" id="nav-two">
+        <ul class="navul-two" id="navul-two">
+          <li><a href="./index.html">Home</a></li>
           <li><a href="./aboutus.html">About Us</a></li>
           <li><a href="./services.html">Services</a></li>
-          <li><a href="./gallery.html">Gallery</a></li>
+          <!-- <li><a href="./gallery.html">Gallery</a></li> -->
           <li><a href="./contact.html">Contact Us</a></li>
         </ul>
       </div>
+
+      <div class="topbar">
+        <ul class="topbarul">
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-mobile-screen"></i> 7670 800 000</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-brands fa-whatsapp"></i> +91 880 221 9999</a
+            >
+          </li>
+          <b
+            ><li><a href="#">Sign up</a></li></b
+          >
+          <b
+            ><li><a href="#">Login</a></li></b
+          >
+        </ul>
+      </div>
+
+      <div class="contact-banner">
+        <img src="./assets/form.png" alt="form" class="contact-image">
+        <form action="" class="form">
+          <h3>Get in touch with us!</h3>
+          <form id="contactForm" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="number">Phone No:</label>
+            <input type="text" id="number" name="number" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <a href="./index.html" class="appointment">Request My Appointment</a>
+
+        </form>
+        
+        </form>
+      </div>
+
+  
+      <div class="footer-main">
+        <div class="footer-one">
+          <div class="addresses">
+            <h3><img src="./assets/canada.png" alt="" /> Australia</h3>
+            +971 (0)42483900 dubai@y-axis.com www.y-axis.ae
+          </div>
+          <div class="addresses">
+            <h3><img src="./assets/australia.png" alt="" /> UAE</h3>
+            +971 (0)42483900 dubai@y-axis.com www.y-axis.ae
+          </div>
+          <div class="addresses">
+            <h3><img src="./assets/australia.png" alt="" /> UK</h3>
+            +971 (0)42483900 dubai@y-axis.com www.y-axis.ae
+          </div>
+          <div class="addresses">
+            <h3><img src="./assets/canada.png" alt="#canada" /> Canada</h3>
+            +1 226 243 2213 info@y-axis.ca www.y-axis.ca
+          </div>
+          <div class="social-media">
+            <p>Follow us :</p>
+            <img src="./assets/facebook.png" alt="#fb" />
+            <img src="./assets/instagram.png" alt="#insta" />
+            <img src="./assets/linkedin.png" alt="#linkedIn" />
+            <img src="./assets/twitter.png" alt="#twitter" />
+            <img src="./assets/whatsapp.png" alt="#whatsapp" />
+            <img src="./assets/youtube.png" alt="#youtube" />
+          </div>
+        </div>
+
+        <div class="footer-two">
+          <img
+            src="./assets/WhatsApp Image 2024-02-05 at 7.55.10 PM.jpeg"
+            alt="#logo"
+            class="footer-logo"
+          />
+          <div class="footer-right">
+            <p>
+              <b>Visit Visas :</b> Australia | Canada | UK | USA | Schengen |
+              Belgium | Austria | Denmark | Finland | Hungary | Malta |
+              Netherlands | Luxembourg | Italy
+            </p>
+            <p>
+              <b>Dependant Visas :</b> Australia | Australia Parent Migration |
+              Canada | Canada Parent Migration | UK | USA
+            </p>
+            <p>
+              <b>Business Visas :</b> Australia | Canada | UK | Germany | USA |
+              Nova Scotia | Austria | Belgium | Greece | Italy | Netherlands
+            </p>
+            <p>
+              <b>Migrate :</b> Australia | Canada | Germany | UK | USA | UAE |
+              Austria | Hongkong | Quebec | Singapore | Denmark | Portugal
+            </p>
+            <p>
+              <b>Work :</b> Canada | FSTP | Canada-PNP | Australia | Australia
+              Graduate Work Visa | Australia Skilled Migration | TSS | UK Tier 2
+              | H-1B | Hong Kong QMAs | Ireland | South Africa
+            </p>
+            <p>
+              <b>Study :</b> Australia | Canada | France | Germany | UK | USA |
+              Ireland | Europe | Denmark | Finland | Luxembourg | Education Loan
+              | SOP | LOR | Admission | Course | Document | Y-Path
+            </p>
+            <p>
+              <b>Invest :</b> Australia | British Columbia | Denmark | Estonia |
+              Ireland | Malta | Manitoba | UK Innovator Visa | UK - Expansion
+              Work Visa
+            </p>
+            <p>
+              <b>Coaching :</b> GMAT | GRE | IELTS | PTE | TOEFL | SAT | German
+              Language | Foreign Language | Demo Videos | Free Demo Classes
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    
+      
     </div>
-
-    <div class="nav-two" id="nav-two">
-      <ul class="navul-two" id="navul-two">
-        <li><a href="#">Home</a></li>
-        <li><a href="./aboutus.html">About Us</a></li>
-        <li><a href="./services.html">Services</a></li>
-        <li><a href="./gallery.html">Gallery</a></li>
-        <li><a href="./contact.html">Contact Us</a></li>
-      </ul>
-    </div>
-
-    <div class="topbar">
-      <ul class="topbarul">
-        <li>
-          <a href="#"><i class="fa-solid fa-mobile-screen"></i> 7670 800 000</a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-whatsapp"></i> +91 880 221 9999</a>
-        </li>
-        <b
-          ><li><a href="#">Sign up</a></li></b
-        >
-        <b
-          ><li><a href="#">Login</a></li></b
-        >
-      </ul>
-    </div>
-
-
-
-
-
-
-
-
     <script
-    src="https://kit.fontawesome.com/078812abb6.js"
-    crossorigin="anonymous"
-  ></script>
-  <script src="./script.js"></script>
+      src="https://kit.fontawesome.com/078812abb6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
