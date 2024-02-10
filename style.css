@@ -699,16 +699,23 @@ img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 4vw;
+  flex-wrap: wrap;
+  gap: 1vw;
 }
 
 .addresses{
   box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.215);
   text-align: center;
   padding: 1vw;
-  width: 17vw;
+  width: 22vw;
+  height: 17vw;
   background-color: white;
   font-family: var(--paraFont);
+}
+
+.flag-img{
+  width: 2vw;
+  object-fit: cover;
 }
 
 .addresses h3{
@@ -719,14 +726,18 @@ img {
   color: rgb(28, 28, 28);
 }
 
-.addresses img{
-  width: 1.5vw;
-  object-fit: cover;
+.social-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  flex-wrap: wrap;
 }
 
-.social-media img{
+.social-icon{
   width: 2vw;
-  margin: 1vw;
+  display: block;
+  margin: 0.3vw;
 }
 
 .footer-two{

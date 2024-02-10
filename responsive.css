@@ -293,7 +293,7 @@
   }
 
   .footer-one {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .social-media {
@@ -313,16 +313,35 @@
     display: block;
   }
 
-  .addresses {
-    width: 100%;
-    margin: 1vw auto;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.156);
+  .social-flex{
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2vw 10vw;
   }
 
-  .addresses img {
+  .social-flex img{
     display: block;
+    margin: 4vw auto;
+  }
+
+  .addresses {
+    height: auto;
+    margin: 1vw auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.156);
+    width: 100%;
+    padding: 2vw;
+   }
+
+  .social-icon{
     width: 10vw;
-    margin: auto;
+  }
+
+  .flag-img{
+    width: 7vw;
   }
 
   .footer-right p {
@@ -330,7 +349,7 @@
   }
 
   .addresses h3 {
-    font-size: 3vw;
+    font-size: 7vw;
   }
 
   .about-us{
@@ -503,6 +522,9 @@
 
   .appointment{
     font-size: 5vw;
+    width: 80vw;
+    padding: 3vw 0vw;
+    letter-spacing: 2px;
   }
 
 }
